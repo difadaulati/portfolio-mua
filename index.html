@@ -10,6 +10,10 @@
 
     <!-- Bootstrao Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio | Difa Daulati</title>
@@ -44,7 +48,7 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/difadaulati.jpg" alt="Difa Daulati" width="200" class="rounded-circle img-thumbnail" />
+      <img src="img/difadaulati.jpg" alt="Difa Daulati" width="200" class="rounded-circle img-thumbnail mb-4" />
       <h1 class="display-4">Difa Daulati</h1>
       <p class="lead">Professional Makeup Artist</p>
       <p>
@@ -63,18 +67,18 @@
     <!-- About -->
     <section id="about">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center mb-5">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
-        <div class="row row justify-content-center fs-5">
-          <div class="col-md-4">
-            <p>Hi girls! I am Difa, a makeup artist living in South Tangerang. I do effortless makeup.</p>
+        <div class="row row justify-content-center">
+          <div class="col-md-4 me-5" data-aos="fade-right" data-aos-duration="1000">
+            <p>Hi girls! I am Difa, a makeup artist living in South Tangerang. I do effortless makeup without shaving eyebrows like I love saying, "your original face but prettier."</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
             <p>
-              My skills have been certified by Beauty For a Better Life (BFBL) L'Oréal Indonesia.
+              My skills have been certified by Beauty For a Better Life (BFBL) L'Oréal Indonesia in collaboration with Yayasan Plan International Indonesia.
               <!-- <a href="https://www.instagram.com/lorealindonesia/" class="text-decoration-none text-reset fw-bolder">L'Oréal Indonesia</a> x
               <a href="https://www.instagram.com/planindonesia/" class="text-decoration-none text-reset fw-bolder">Plan Indonesia</a> x
               <a href="https://www.instagram.com/ppkpijakarta/" class="text-decoration-none text-reset fw-bolder">PPKPI East Jakarta</a> -->
@@ -95,49 +99,49 @@
     <!-- Projects -->
     <section id="projects">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center mb-5">
           <div class="col">
             <h2>Regular Makeup</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <img src="img/projects/aftermelek.jpg" class="card-img-top" alt="Project1" />
               <div class="card-body">
-                <p class="card-text">[LAP] - A F T E R</p>
+                <p class="card-text">[after]</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
               <img src="img/projects/aftergigi.jpg" class="card-img-top" alt="Project2" />
               <div class="card-body">
-                <p class="card-text">[LAP] - A F T E R</p>
+                <p class="card-text">[after]</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="200">
               <img src="img/projects/aftermerem.jpg" class="card-img-top" alt="Project3" />
               <div class="card-body">
-                <p class="card-text">[LAP] - A F T E R</p>
+                <p class="card-text">[after]</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="fade-right" data-aos-duration="500" data-aos-delay="300">
               <img src="img/projects/before.jpg" class="card-img-top" alt="Project4" />
               <div class="card-body">
-                <p class="card-text">[LAP] - B E F O R E</p>
+                <p class="card-text">[before]</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400">
               <img src="img/projects/beforemiring.jpg" class="card-img-top" alt="Project5" />
               <div class="card-body">
-                <p class="card-text">[LAP] - B E F O R E</p>
+                <p class="card-text">[before]</p>
               </div>
             </div>
           </div>
@@ -153,10 +157,64 @@
     </section>
     <!-- Akhir Projects -->
 
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gallery1.jpg" alt="Gambar1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gallery2.jpg" alt="Gambar2" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gallery3.jpg" alt="Gambar3" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gallery4.jpg" alt="Gambar4" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gallery5.jpg" alt="Gambar5" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gallery6.jpg" alt="Gambar6" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gallery7.jpg" alt="Gambar7" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gallery8.jpg" alt="Gambar8" class="img-fluid gallery-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery -->
+
     <!-- Contact -->
     <section id="contact">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center mb-5">
           <div class="col">
             <h2>Contact Me</h2>
           </div>
@@ -204,7 +262,24 @@
       <p>Created with <i class="bi bi-suit-heart"></i> by <a href="https://www.instagram.com/difatagor/" class="text-white fw-bold text-decoration-none">Difa Daulati</a></p>
     </footer>
     <!-- Akhir Footer -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll(".gallery-img");
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init({
+        once: true,
+      });
+    </script>
+
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbygGwKXxzH1osybM_hf8OKuLOHIL2hMO7nXpNsy6l-5jbJKOt19VwNMwtCSSiKgZ-c0/exec";
       const form = document.forms["mua-contact-form"];
